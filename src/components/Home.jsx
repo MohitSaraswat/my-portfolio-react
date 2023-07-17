@@ -36,6 +36,7 @@ const Home = () => {
       setIsDeleting(true);
       setIndex(prevIndex => prevIndex - 1);
       setDelta(period);
+      console.log(index);
     } else if (isDeleting && updatedText === '') {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);

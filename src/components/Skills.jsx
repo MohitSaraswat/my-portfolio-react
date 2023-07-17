@@ -16,11 +16,10 @@ import webpack from "../assets/webpack.png";
 import nodejs from "../assets/nodejs.png";
 import expressjs from "../assets/expressjs.png";
 import mongodb from "../assets/mongodb.png";
-import vscode from "../assets/vscode.png";
 import {AiFillStar, AiOutlineStar} from "react-icons/ai";
 
 const Skills = () => {
-  const [totalStars, setTotalStars] = useState(5);
+  const [totalStars] = useState(5);
   const techs = [
     {
         id: 1,

@@ -49,7 +49,8 @@ const Contact = () => {
           </div>
           <div className="col-span-1 md:col-span-2">
             <div className="pl-0 lg:pl-8 w-full pb-8">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.8674059580662!2d73.94237937465026!3d18.534893082561414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3d7027e02c3%3A0x706966e0336158b9!2sVertical%20Oriana!5e0!3m2!1sen!2sin!4v1689475205783!5m2!1sen!2sin" width="100%" height="380" style={{ border: "0", width: "100%" }} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe title="address"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3782.8674059580662!2d73.94237937465026!3d18.534893082561414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3d7027e02c3%3A0x706966e0336158b9!2sVertical%20Oriana!5e0!3m2!1sen!2sin!4v1689475205783!5m2!1sen!2sin" width="100%" height="380" style={{ border: "0", width: "100%" }} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
